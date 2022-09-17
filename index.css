@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(54 103 135);
+    height: 100vh;
+    width: 20vw;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    height: 7vw;
+    margin-top: 0.5vh;
+    border-radius: 50%;
+}
+
+.name{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.name p{
+    margin-top: 3px;
+    font-size: 28px;
+}
+
+.links{
+    text-align: center;
+}
+
+.links li{
+    margin-bottom: 78px;
+    margin-top: 11px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.transferLinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.transferLinks img{
+    height: 2vw;
+}
+
+.main{
+    background-color: rgb(0, 0, 0);
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.topimage img{
+    opacity: 0.3;
+    width: 80vw;
+    height: 40vh;
+}
+
+.quote{
+    color: white;
+    position: absolute;
+    top:20vh;
+    left:39vw;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+}
+.aboutMe{
+    margin-left: 5vw;
+    margin-top: 8vh;
+}
+
+.heading{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    width: 31vw;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.description{
+    color: white;
+    text-align: justify;
+    width: 31vw;
+    font-size: 20px;
+}
+
+.skills{
+    color: white;
+    margin-left: 10vw;
+    width: 43vw;
+}
+.title{
+    margin-left: 13vw;
+    margin-top: 8vh;
+    font-size: 25px;
+}
+
+.skillImage {
+    margin-left: 66px;
+    margin-top: 17px;
+}
+
+.skillImage img{
+    width: 40px;
+    margin-left: 40px;  
+    margin-bottom: 40px;
+}
+
+.skillImage:hover{
+    width: 45px;
+}
+
+.skillImage p{
+    font-size: 20px;
+}
+.skillImage .frontend p{
+    margin-top: 15px;
+}
+
+.skillImage .backend p{
+    margin-top:11px;
+}
+
+.skillImage .database p{
+    margin-top:10px;
+}
+
+.skillImage .language p{
+    margin-top: 6px;
+}
+
+.frontend{
+    display: flex;
+}
+
+.backend{
+    display: flex;
+}
+
+
+
+.database{
+    display: flex;
+}
+
+.language{
+    display: flex;    
+}
+
+.resume{
+    position: absolute;
+    right: 3vw;
+    top: 5vh;
+}
+
+button{
+    border-radius: 57px;
+    width: 112px;
+    background-color: #80481d;
+    color: white;
+}
